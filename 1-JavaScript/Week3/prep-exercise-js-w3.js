@@ -13,7 +13,3 @@ const findMentorForModule = (moduleName) => {
   if (possibleMentors.length === 0) return null;
   return possibleMentors[Math.floor(Math.random() * possibleMentors.length)];
 };
-
-// Uncomment these lines to test the functions
-// console.log(possibleMentorsForModule('using-apis'));
-// console.log(findMentorForModule('javascript'));
