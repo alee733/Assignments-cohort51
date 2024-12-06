@@ -13,3 +13,5 @@ const findMentorForModule = (moduleName) => {
   if (possibleMentors.length === 0) return null;
   return possibleMentors[Math.floor(Math.random() * possibleMentors.length)];
 };
+// You can uncomment out this line to try your function
+// console.log(findMentorForModule('javascript'));
